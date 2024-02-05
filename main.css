@@ -1,0 +1,43 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    height: 60px;
+    align-items: center;
+}
+
+.home-image {
+    position: relative;
+    left: 50%;
+}
+
+.main {
+    display: block;
+    width: 49%;
+    position: absolute;
+    top: 27%;
+}
+
+.vote-image {
+    display: block;
+    position: relative;
+    height: 700px;
+    width: 50%;
+    left: 50%;
+}
+
+.form {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top:27%;
+}
+
+.gallary {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    row-gap: 50px;
+}

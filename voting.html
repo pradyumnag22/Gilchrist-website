@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Voting for your favorite player</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <a style="text-decoration: none; font-size: xx-large; color: green;" href="home.html"><strong>Adam Gilchrist</strong></a>
+        <div class="navigation">
+            <a style="text-decoration: none; font-size: x-large; color: blue;" href="home.html">Home</a>
+            <a style="text-decoration: none; font-size: x-large; color: blue;" href="voting.html">Voting</a>
+            <a style="text-decoration: none; font-size: x-large; color: blue;" href="social.html">Social</a>
+            <a style="text-decoration: none; font-size: x-large; color: blue;" href="gallery.html">Gallery</a>
+        </div>
+        <h1>Vote and comment</h1>
+        <img class="vote-image" src="voting.jpg" alt="image">
+        <p style="display: block; width: 49%; position: absolute; top: 20%;">Here I am taking voting to know your feelings about Adam Gilchrist or any other open order batsman retired/playing. Please comment</p>
+        <form class="form" action="/form" method="post">
+            <fieldset>
+                <label for="name">Your name</label><br>
+                <input type="text" id="name"><br>
+                <label for="email">Your Email</label><br>
+                <input type="email" id="email"><br>
+                <label for="favorite">Your favorite first order batsman</label><br>
+                <input type="text" id="favorite"><br>
+                <label for="comment">Comments</label><br>
+                <textarea name="comments" id="comment"></textarea><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+
+    </body>
+</html>
